@@ -1,0 +1,33 @@
+/* -----------------------------------------------------------------------------------
+	
+	COLORS
+	___________
+	
+	Added color to some elements
+
+----------------------------------------------------------------------------------- */
+
+.colored,
+a,
+blockquote > p a:hover,
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
+nav#main-nav ul > li > a:hover, nav#main-nav ul > li.current-menu-item > a,	nav#main-nav ul > li:hover > a,
+.text-light nav#main-nav ul > li > a:hover, .text-light nav#main-nav ul > li.current-menu-item > a,	.text-light nav#main-nav ul > li:hover > a,  
+.filter li a:hover, .filter li.active a,
+.pagination li a:hover,
+.pagination li.back a:hover:after, .pagination li.back a:hover:before, 
+.pagination li.back a:hover .icon:after, .pagination li.back a:hover .icon:before,
+.pagination li a[data-title]:not([data-title='']),
+#page-pagination .pagination li.page a:hover,
+.comments .comment-reply-link, .comments #cancel-comment-reply-link,
+.tabs ul.tab-nav li.active a,
+header.text-light.transparent.menu-is-open[class*='menu-full'] #menu-widget a
+{ color: #d19b4f; }
+
+.sr-button:hover,
+.sr-button-icon:hover,
+#page-pagination .pagination li.page span { border-color: #d19b4f; }
+
+a:hover,
+header.text-light.transparent.menu-is-open[class*='menu-full'] #menu-widget a:hover { color: #000000; }
+.text-light a:hover { color: #ffffff; }
