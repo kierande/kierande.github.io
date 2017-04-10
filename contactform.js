@@ -2,7 +2,7 @@ $('form#contact_form').validate({
   messages: { },
   submitHandler: function(form) {
     $.ajax({
-      url: "//formspree.io/hello@reecreate.com",
+      url: "//formspree.io/submissions@kierandelaney.co.uk",
       method: "POST",
       data: $(form).serialize(),
       dataType: "json",
