@@ -14,7 +14,7 @@ $(document).ready(function() {
         
         //send to formspree
         $.ajax({
-            url:'https://formspree.io/submissions@kierandelaney.co.uk',
+      url: "//formspree.io/submissions@kierandelaney.co.uk",
             method:'POST',
             data:{
                 name:name,
